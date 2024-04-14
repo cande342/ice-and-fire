@@ -10,8 +10,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255; /* Color del texto (blanco) */
+    --background-start-rgb: 100, 0, 0; 
     --background-end-rgb: 0, 0, 0;
   }
 }
@@ -29,5 +29,11 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .word-spacing {
+    word-spacing: 0.25em; /* Ajusta el valor según sea necesario */
   }
 }
