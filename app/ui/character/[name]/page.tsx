@@ -27,7 +27,7 @@ const CharacterDetail: React.FC<{ slug: string }> = ({ slug }) => {
   return (
     <div>
     <h1>{character.name}</h1>
-    {/* Añade aquí más detalles del personaje como desees */}
+    {/* No está funcionando, esto es para probar solamente */}
   </div>
   );
 };
