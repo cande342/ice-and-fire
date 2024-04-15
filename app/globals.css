@@ -16,6 +16,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  :root {
+    --background-start-rgb: 0, 0, 0; /* Color de fondo inicial para móviles */
+    --background-end-rgb: 0, 0, 0; /* Color de fondo final para móviles */
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

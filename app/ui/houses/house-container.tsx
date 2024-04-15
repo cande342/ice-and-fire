@@ -19,7 +19,12 @@ const HouseContainer: React.FC = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {houses.map((house, index) => (
         <div key={index} className="bg-white bg-opacity-10 p-4 rounded-lg flex flex-col h-full">
-          <Image src={`/houses/${house.slug}.jpg`} alt={house.name} className="mb-2" width={250} height={300}/>
+          <Image src={`/houses/${house.slug}.jpg`} 
+                  alt={house.name} 
+                  className="mb-2" 
+                  width={250} 
+                  height={300}
+            />
           <div className="text-gray-600 mb-2">
             <strong>{house.name}</strong>
           </div>
