@@ -14,5 +14,3 @@ Blog sobre GoT, primera app con Next.js (bootcamp)
     
   -  Rutas dinámicas(en proceso)
     
-  -  https://github.com/cande342/ice-and-fire
-    
