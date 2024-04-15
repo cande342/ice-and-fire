@@ -19,9 +19,9 @@ const ImageGallery: React.FC = () => {
       <Image
             src={`/main-photos/${index}.jpg`} // Ruta actualizada
             alt={`Image ${index}`}
-            width={150} // Ancho de la imagen
-            height={200} // Altura de la imagen
-            priority={true}
+            width={150} 
+            height={200} 
+            priority={true} //Esto es para que la imagen se cargue rapido.
             className="transition-transform duration-300 ease-in-out transform hover:scale-110"
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
