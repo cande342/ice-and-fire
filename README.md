@@ -1,3 +1,5 @@
+ACTIVIDAD 2
+
 Blog sobre GoT, primera app con Next.js (bootcamp)
 
    - TailwindCSS.
