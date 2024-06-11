@@ -4,7 +4,8 @@ export interface Character {
   house: {
     slug: string;
     name: string;
-  }[];
+  }; 
+  quotes: string[];
 }
 
 export type CharacterName = {
