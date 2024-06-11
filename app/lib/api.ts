@@ -1,11 +1,11 @@
-export type Character = {
+export interface Character {
   name: string;
-  slug:string;
+  slug: string;
   house: {
-      slug: string;
-      name: string;
+    slug: string;
+    name: string;
   }[];
-};
+}
 
 export type CharacterName = {
   name: string;
